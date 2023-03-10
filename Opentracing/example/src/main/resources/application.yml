@@ -1,0 +1,8 @@
+spring:
+  sleuth:
+    otel:
+      config:
+        trace-id-ratio-based: 1.0
+      exporter:
+        otlp:
+          endpoint: http://collector:4317
